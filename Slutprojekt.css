@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+header, footer {
+    color: #f702cc;
+    padding: 15px;
+    text-align: center;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61-gHzPVhnL._SX355_.jpg);
+	
+}
+.column {
+    float: left;
+    padding: 10px;
+	width: 20%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 20%;
+}
+.content {
+    width: 60%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: rgb(0, 191, 209);
+    
+	border-radius: 10px;
+}
+.menu li:hover {
+    background-color: hsla(240, 20%, 20%, 0.85);
+}
+
+a {
+	text-decoration:  none;
+}
+#Active{
+	background-color: #bb99ff;
+}
+h2{
+	color: rgb(247, 2, 204);
+	text-shadow: 2px 2px rgb(0, 191, 209);
+}
