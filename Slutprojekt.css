@@ -1,3 +1,14 @@
+/*När sidan är mindre än 992px blir h1 och p blå*/
+@media screen and (max-width:992px) {
+h1, p {
+    color: rgb(0, 191, 209);
+}
+}
+
+a:visited {
+    color: white;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -9,15 +20,26 @@ header, footer {
 	
 }
 
+h2{
+	color: rgba(247, 2, 204, 100%);
+	text-shadow: 2px 2px rgb(0, 191, 209);
+}
+
+/*Sidan man är på syns med rosa färg*/
+#Active{
+	background-color: hsl(311, 98%, 49%);
+}
+
 iframe{
-    margin-left: 27%;
-    margin-bottom: 10%; 
+    margin-left: 2.65%;
+    margin-bottom: 7%; 
+    border: 0;
 }
 
 /*Trespaltmeny*/
 .column {
     float: left;
-    padding: 10px;
+    padding: 1em;
 	width: 20%;
 }
 .clearfix::after {
@@ -56,10 +78,10 @@ a {
     text-decoration:  none;
     color: black;
 }
-#Active{
-	background-color: hsl(311, 98%, 49%);
-}
-h2{
-	color: rgb(247, 2, 204);
-	text-shadow: 2px 2px rgb(0, 191, 209);
+
+
+table, tr, th, td{
+    border: black solid 1px;
+    border-collapse: collapse;
+
 }
